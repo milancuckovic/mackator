@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import Menu from '../Menu/Menu';
-import Logo from '../../Images/mackator-logo.svg';
+import Logo from '../../Images/mackator.png';
 import "./Header.css";
 import AboutCats from '../AboutCats/AboutCats';
 
@@ -18,7 +18,7 @@ export default function Header() {
     <div className='header-div'>
       <div>
         <Menu/>
-        <img src={Logo} className="header-img" alt="mačkator"></img>
+        <img src={Logo} className="header-img" alt="mačkator"/>
       </div>
       <div>
         <AboutCats citats={citats}/>

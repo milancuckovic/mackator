@@ -34,11 +34,12 @@
 .menu-btn-x .navbar-toggler-icon{
     color:white;
     font-size: 10vh;
-    margin-bottom: 10vh;
-    padding: 10px;
+    position: absolute;
+    top:0;
+    left: 0;
     display: inline-block;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTg2LDE0LjMzMzMzYy0zOS40OTU1MiwwIC03MS42NjY2NywzMi4xNzExNSAtNzEuNjY2NjcsNzEuNjY2NjdjMCwzOS40OTU1MiAzMi4xNzExNSw3MS42NjY2NyA3MS42NjY2Nyw3MS42NjY2N2MzOS40OTU1MiwwIDcxLjY2NjY3LC0zMi4xNzExNSA3MS42NjY2NywtNzEuNjY2NjdjMCwtMzkuNDk1NTIgLTMyLjE3MTE1LC03MS42NjY2NyAtNzEuNjY2NjcsLTcxLjY2NjY3ek04NiwyOC42NjY2N2MzMS43NDkyMSwwIDU3LjMzMzMzLDI1LjU4NDEyIDU3LjMzMzMzLDU3LjMzMzMzYzAsMzEuNzQ5MjEgLTI1LjU4NDEyLDU3LjMzMzMzIC01Ny4zMzMzMyw1Ny4zMzMzM2MtMzEuNzQ5MjEsMCAtNTcuMzMzMzMsLTI1LjU4NDEyIC01Ny4zMzMzMywtNTcuMzMzMzNjMCwtMzEuNzQ5MjEgMjUuNTg0MTIsLTU3LjMzMzMzIDU3LjMzMzMzLC01Ny4zMzMzM3pNNjIuNDAwMzksNTIuMjY2MjhsLTEwLjEzNDExLDEwLjEzNDExbDIzLjU5OTYxLDIzLjU5OTYxbC0yMy41OTk2MSwyMy41OTk2MWwxMC4xMzQxMSwxMC4xMzQxMWwyMy41OTk2MSwtMjMuNTk5NjFsMjMuNTk5NjEsMjMuNTk5NjFsMTAuMTM0MTEsLTEwLjEzNDExbC0yMy41OTk2MSwtMjMuNTk5NjFsMjMuNTk5NjEsLTIzLjU5OTYxbC0xMC4xMzQxMSwtMTAuMTM0MTFsLTIzLjU5OTYxLDIzLjU5OTYxeiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+') 50% 50% no-repeat;
     background-size: 100%; 
 }
@@ -54,11 +55,11 @@
         z-index: 1000;
     }
     .links{
-        top:50%;
+        top:0;
         left: 50%;
-        transform: translate(-50%,-80%);
+        transform: translateX(-50%);
         position: absolute;
-        padding: 15px;
+        padding: 150px 15px 15px 15px;
     }
     .link{
         margin: 0;
