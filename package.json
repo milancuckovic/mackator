@@ -1,7 +1,7 @@
 {
   "name": "mackator",
   "version": "0.1.0",
-  "homepage": "https://milancuckovic.github.io/mackator/",
+  "homepage": "https://milancuckovic.github.io/mackator",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
