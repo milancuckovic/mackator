@@ -70,13 +70,14 @@
         font-size: 1.2rem;
     }
     .div-citati{
-        margin-bottom: 5px;
+        margin-bottom: -10px;
+        margin-top: 10px;
     }
     .slider{
         height: 120px;
     }
     .slider-item{
-        font-size: 0.9rem;
+        font-size: 0.85rem;
     }
     .aboutCats-div{
         height: 200px;
