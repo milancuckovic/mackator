@@ -13,9 +13,9 @@ export default function App() {
     <>
         <BrowserRouter>
             <Routes>
-                <Route path="mackator/" exact element={<Home/>}></Route>
-                <Route path="mackator/o-nama" exact element={<About/>}></Route>
-                <Route path="mackator/kontakt" exact element={<Contact/>}></Route>
+                <Route path="/mackator/" exact element={<Home/>}></Route>
+                <Route path="/mackator/o-nama" exact element={<About/>}></Route>
+                <Route path="/mackator/kontakt" exact element={<Contact/>}></Route>
             </Routes>
         </BrowserRouter>
     </>
