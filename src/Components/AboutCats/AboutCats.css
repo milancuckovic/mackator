@@ -1,0 +1,72 @@
+.aboutCats-div{
+    margin-top:15px;
+    width: 100%;
+    height:220px;
+    border: 5px solid var(--tamnobraon);
+    border-radius: 30px;
+    background: rgb(255,255,255,0.5);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.div-citati{
+    margin-bottom: 20px;
+}
+.pFirst{
+    text-align: center;
+    vertical-align: center;
+    color:var(--tamnobraon);
+    font-weight: 600;
+    font-size: 1.8em;
+    padding:5px;
+}
+.slider{
+    overflow: hidden;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.slider-item{
+    text-align: center;
+    padding:15px;
+    font-size: 1.1rem;
+    color:var(--braon);
+    transition: margin-top 0.2s;
+}
+.dugmici{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    left:50%;
+    width: 100px;
+    padding-bottom: 5px;
+    margin-left: -34px;
+}
+.ac-button{
+    border-radius: 100%;
+    border:none;
+    margin:2px;
+    height: 15px;
+    width: 15px;
+    background: var(--bez);
+}
+.ac-button:hover{
+    opacity: 0.8;
+}
+.ac-button1{
+    background: var(--tamnobraon);
+}
+.citati-poruka{
+    height: 50px;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .dugmici{
+        display:none;
+    }
+    .aboutCats-div{
+        height: 250px;
+    }
+}

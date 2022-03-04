@@ -1,0 +1,33 @@
+.header-div{
+    background: var(--bez);
+    padding: 10px 20px 50px 20px;
+    max-width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.header-div>div{
+    padding: 20px;
+}
+.header-img{
+    width:480px;
+    margin-top: 35px;
+    margin-left: 55px;
+}
+
+@media only screen and (max-width : 991px) {
+    .header-div{
+        flex-direction: column;
+    }
+    .header-img{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 15px;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+}

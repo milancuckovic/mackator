@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Medium.woff2') format('woff2'),
+      url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+:root{
+    --zelena:#797d62;
+    --siva:#9b9b7a;
+    --roza:#d9ae94;
+    --bez: #f1dca7;
+    --narandzasta: #ffcb69;
+    --braon:#d08c60;
+    --tamnobraon:#997b66;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'JetBrains Mono';
+}
+body{
+    background-image: url('../Images/sapica-pozadina.svg');
+}

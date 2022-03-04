@@ -1,0 +1,15 @@
+.footer-div{
+    background-color: var(--zelena);
+    color:var(--bez);
+    bottom:0;
+    font-style: italic;
+    text-align: center;
+    padding:20px 10px 15px 20px;
+}
+.footer-a{
+    text-decoration: none;
+    color:var(--bez);
+}
+.footer-a:hover{
+    color:var(--braon);
+}
