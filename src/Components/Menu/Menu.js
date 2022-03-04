@@ -12,9 +12,9 @@ export default function Menu() {
                     <Navbar.Collapse className='colapse'>
                         <Nav className="links">
                             <Navbar.Toggle className='menu-btn-x'/>
-                            <NavLink to="/" className="link" activeclassname="active">Početna</NavLink>
-                            <NavLink to="/o-nama" className="link" activeclassname="active">O nama</NavLink>
-                            <NavLink to="/kontakt" className="link" activeclassname="active">Kontakt</NavLink>
+                            <NavLink to="mackator/" className="link" activeclassname="active">Početna</NavLink>
+                            <NavLink to="mackator/o-nama" className="link" activeclassname="active">O nama</NavLink>
+                            <NavLink to="mackator/kontakt" className="link" activeclassname="active">Kontakt</NavLink>
                         </Nav>        
                     </Navbar.Collapse>
             </Container>          
