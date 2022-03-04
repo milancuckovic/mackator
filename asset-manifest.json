@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mackator/static/css/main.9f9387c8.css",
+    "main.js": "/mackator/static/js/main.698e5654.js",
+    "static/media/sapica-pozadina.svg": "/mackator/static/media/sapica-pozadina.4db9b86fcbb375c3ee5b.svg",
+    "static/media/mackator-logo.svg": "/mackator/static/media/mackator-logo.fd197ada95fe0a94b995019f39393b91.svg",
+    "index.html": "/mackator/index.html",
+    "main.9f9387c8.css.map": "/mackator/static/css/main.9f9387c8.css.map",
+    "main.698e5654.js.map": "/mackator/static/js/main.698e5654.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f9387c8.css",
+    "static/js/main.698e5654.js"
+  ]
+}
