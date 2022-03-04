@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/mackator/static/css/main.9f9387c8.css",
-    "main.js": "/mackator/static/js/main.67e2c953.js",
+    "main.css": "/mackator/static/css/main.a965ad6b.css",
+    "main.js": "/mackator/static/js/main.7e39ee1d.js",
     "static/media/sapica-pozadina.svg": "/mackator/static/media/sapica-pozadina.4db9b86fcbb375c3ee5b.svg",
-    "static/media/mackator-logo.svg": "/mackator/static/media/mackator-logo.fd197ada95fe0a94b995019f39393b91.svg",
+    "static/media/mackator.png": "/mackator/static/media/mackator.935dbc839cbf4198c22f.png",
     "index.html": "/mackator/index.html",
-    "main.9f9387c8.css.map": "/mackator/static/css/main.9f9387c8.css.map",
-    "main.67e2c953.js.map": "/mackator/static/js/main.67e2c953.js.map"
+    "main.a965ad6b.css.map": "/mackator/static/css/main.a965ad6b.css.map",
+    "main.7e39ee1d.js.map": "/mackator/static/js/main.7e39ee1d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f9387c8.css",
-    "static/js/main.67e2c953.js"
+    "static/css/main.a965ad6b.css",
+    "static/js/main.7e39ee1d.js"
   ]
 }
